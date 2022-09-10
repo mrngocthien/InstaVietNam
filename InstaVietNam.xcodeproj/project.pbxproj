@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4F6739F28CC1A2B005650F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */; };
+		E4F673A128CC1A2B005650F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */; };
+		E4F673A328CC1A2B005650F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673A228CC1A2B005650F9 /* HomeViewController.swift */; };
+		E4F673A628CC1A2B005650F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F673A428CC1A2B005650F9 /* Main.storyboard */; };
+		E4F673A828CC1A2D005650F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F673A728CC1A2D005650F9 /* Assets.xcassets */; };
+		E4F673AB28CC1A2D005650F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F673A928CC1A2D005650F9 /* LaunchScreen.storyboard */; };
+		E4F673B828CC1B1F005650F9 /* ExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673B728CC1B1F005650F9 /* ExplorerViewController.swift */; };
+		E4F673BA28CC1B3B005650F9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673B928CC1B3B005650F9 /* CameraViewController.swift */; };
+		E4F673BC28CC1B61005650F9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673BB28CC1B61005650F9 /* NotificationsViewController.swift */; };
+		E4F673BE28CC1B77005650F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673BD28CC1B77005650F9 /* ProfileViewController.swift */; };
+		E4F673C328CC1C2D005650F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C228CC1C2D005650F9 /* LoginViewController.swift */; };
+		E4F673C628CC1C4C005650F9 /* RegistrastionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C528CC1C4C005650F9 /* RegistrastionViewController.swift */; };
+		E4F673C828CC1CA7005650F9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C728CC1CA7005650F9 /* PostViewController.swift */; };
+		E4F673CA28CC1CD2005650F9 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */; };
+		E4F673CC28CC1CFA005650F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */; };
+		E4F673CE28CC1D0F005650F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CD28CC1D0F005650F9 /* ListViewController.swift */; };
+		E4F673D028CC1D27005650F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CF28CC1D27005650F9 /* SearchViewController.swift */; };
+		E4F673D228CC1D3C005650F9 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */; };
+		E4F673D428CC1D74005650F9 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */; };
+		E4F673D628CC1D93005650F9 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4F6739B28CC1A2B005650F9 /* InstaVietNam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaVietNam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4F673A228CC1A2B005650F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E4F673A528CC1A2B005650F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4F673A728CC1A2D005650F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F673AA28CC1A2D005650F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4F673AC28CC1A2D005650F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F673B728CC1B1F005650F9 /* ExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerViewController.swift; sourceTree = "<group>"; };
+		E4F673B928CC1B3B005650F9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E4F673BB28CC1B61005650F9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E4F673BD28CC1B77005650F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E4F673C228CC1C2D005650F9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4F673C528CC1C4C005650F9 /* RegistrastionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrastionViewController.swift; sourceTree = "<group>"; };
+		E4F673C728CC1CA7005650F9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E4F673CD28CC1D0F005650F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		E4F673CF28CC1D27005650F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F6739828CC1A2B005650F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4F6739228CC1A2B005650F9 = {
+			isa = PBXGroup;
+			children = (
+				E4F6739D28CC1A2B005650F9 /* InstaVietNam */,
+				E4F6739C28CC1A2B005650F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F6739C28CC1A2B005650F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F6739B28CC1A2B005650F9 /* InstaVietNam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F6739D28CC1A2B005650F9 /* InstaVietNam */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673B528CC1A71005650F9 /* Resources */,
+				E4F673B428CC1A65005650F9 /* Models */,
+				E4F673B328CC1A5D005650F9 /* Views */,
+				E4F673B228CC1A51005650F9 /* Controllers */,
+				E4F673AC28CC1A2D005650F9 /* Info.plist */,
+			);
+			path = InstaVietNam;
+			sourceTree = "<group>";
+		};
+		E4F673B228CC1A51005650F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673C028CC1BF4005650F9 /* Other */,
+				E4F673BF28CC1BAD005650F9 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4F673B328CC1A5D005650F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673B628CC1AAA005650F9 /* Storyboards */,
+				E4F673A728CC1A2D005650F9 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4F673B428CC1A65005650F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4F673B528CC1A71005650F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */,
+				E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4F673B628CC1AAA005650F9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673A428CC1A2B005650F9 /* Main.storyboard */,
+				E4F673A928CC1A2D005650F9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E4F673BF28CC1BAD005650F9 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673A228CC1A2B005650F9 /* HomeViewController.swift */,
+				E4F673B728CC1B1F005650F9 /* ExplorerViewController.swift */,
+				E4F673B928CC1B3B005650F9 /* CameraViewController.swift */,
+				E4F673BB28CC1B61005650F9 /* NotificationsViewController.swift */,
+				E4F673BD28CC1B77005650F9 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		E4F673C028CC1BF4005650F9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673C128CC1BFF005650F9 /* Onboarding */,
+				E4F673C728CC1CA7005650F9 /* PostViewController.swift */,
+				E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */,
+				E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */,
+				E4F673CD28CC1D0F005650F9 /* ListViewController.swift */,
+				E4F673CF28CC1D27005650F9 /* SearchViewController.swift */,
+				E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */,
+				E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */,
+				E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E4F673C128CC1BFF005650F9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E4F673C228CC1C2D005650F9 /* LoginViewController.swift */,
+				E4F673C528CC1C4C005650F9 /* RegistrastionViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F6739A28CC1A2B005650F9 /* InstaVietNam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F673AF28CC1A2D005650F9 /* Build configuration list for PBXNativeTarget "InstaVietNam" */;
+			buildPhases = (
+				E4F6739728CC1A2B005650F9 /* Sources */,
+				E4F6739828CC1A2B005650F9 /* Frameworks */,
+				E4F6739928CC1A2B005650F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaVietNam;
+			productName = InstaVietNam;
+			productReference = E4F6739B28CC1A2B005650F9 /* InstaVietNam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F6739328CC1A2B005650F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E4F6739A28CC1A2B005650F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E4F6739628CC1A2B005650F9 /* Build configuration list for PBXProject "InstaVietNam" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4F6739228CC1A2B005650F9;
+			productRefGroup = E4F6739C28CC1A2B005650F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F6739A28CC1A2B005650F9 /* InstaVietNam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F6739928CC1A2B005650F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F673AB28CC1A2D005650F9 /* LaunchScreen.storyboard in Resources */,
+				E4F673A828CC1A2D005650F9 /* Assets.xcassets in Resources */,
+				E4F673A628CC1A2B005650F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F6739728CC1A2B005650F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F673CA28CC1CD2005650F9 /* EditProfileViewController.swift in Sources */,
+				E4F673C628CC1C4C005650F9 /* RegistrastionViewController.swift in Sources */,
+				E4F673D628CC1D93005650F9 /* PublishPostViewController.swift in Sources */,
+				E4F673A328CC1A2B005650F9 /* HomeViewController.swift in Sources */,
+				E4F673BA28CC1B3B005650F9 /* CameraViewController.swift in Sources */,
+				E4F6739F28CC1A2B005650F9 /* AppDelegate.swift in Sources */,
+				E4F673D428CC1D74005650F9 /* PostEditorViewController.swift in Sources */,
+				E4F673C828CC1CA7005650F9 /* PostViewController.swift in Sources */,
+				E4F673BC28CC1B61005650F9 /* NotificationsViewController.swift in Sources */,
+				E4F673D228CC1D3C005650F9 /* SearchResultViewController.swift in Sources */,
+				E4F673C328CC1C2D005650F9 /* LoginViewController.swift in Sources */,
+				E4F673D028CC1D27005650F9 /* SearchViewController.swift in Sources */,
+				E4F673BE28CC1B77005650F9 /* ProfileViewController.swift in Sources */,
+				E4F673A128CC1A2B005650F9 /* SceneDelegate.swift in Sources */,
+				E4F673B828CC1B1F005650F9 /* ExplorerViewController.swift in Sources */,
+				E4F673CE28CC1D0F005650F9 /* ListViewController.swift in Sources */,
+				E4F673CC28CC1CFA005650F9 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4F673A428CC1A2B005650F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F673A528CC1A2B005650F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4F673A928CC1A2D005650F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F673AA28CC1A2D005650F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4F673AD28CC1A2D005650F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4F673AE28CC1A2D005650F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F673B028CC1A2D005650F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3FN5UBAWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaVietNam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thien.InstaVietNam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F673B128CC1A2D005650F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3FN5UBAWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaVietNam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thien.InstaVietNam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F6739628CC1A2B005650F9 /* Build configuration list for PBXProject "InstaVietNam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F673AD28CC1A2D005650F9 /* Debug */,
+				E4F673AE28CC1A2D005650F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F673AF28CC1A2D005650F9 /* Build configuration list for PBXNativeTarget "InstaVietNam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F673B028CC1A2D005650F9 /* Debug */,
+				E4F673B128CC1A2D005650F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F6739328CC1A2B005650F9 /* Project object */;
+}
