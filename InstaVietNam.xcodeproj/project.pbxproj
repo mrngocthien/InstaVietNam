@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1030380EC78382BFFF80F80 /* Pods_InstaVietNam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144AB757F571D37F06D7EB93 /* Pods_InstaVietNam.framework */; };
+		E4B7A0A228CED90700B3F488 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0A128CED90700B3F488 /* IGFeedPostTableViewCell.swift */; };
+		E4B7A0A528CEDC0800B3F488 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0A428CEDC0800B3F488 /* IGFeedPostHeaderTableViewCell.swift */; };
+		E4B7A0A728CEDC4000B3F488 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0A628CEDC4000B3F488 /* IGFeedPostActionsTableViewCell.swift */; };
+		E4B7A0A928CEDC7900B3F488 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0A828CEDC7900B3F488 /* IGFeedPostGeneralTableViewCell.swift */; };
+		E4B7A0AB28CF0E0E00B3F488 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0AA28CF0E0E00B3F488 /* SettingsViewController.swift */; };
+		E4B7A0AD28CF273A00B3F488 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0AC28CF273A00B3F488 /* FormTableViewCell.swift */; };
+		E4B7A0B028CF6D7100B3F488 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0AF28CF6D7100B3F488 /* PhotoCollectionViewCell.swift */; };
+		E4B7A0B228CF6DFC00B3F488 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0B128CF6DFC00B3F488 /* ProfileInfoHeaderCollectionReusableView.swift */; };
+		E4B7A0B428CF6E8500B3F488 /* ProfileTableCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0B328CF6E8500B3F488 /* ProfileTableCollectionReusableView.swift */; };
+		E4B7A0B628D0731300B3F488 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0B528D0731300B3F488 /* Models.swift */; };
+		E4B7A0B828D13E5300B3F488 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0B728D13E5300B3F488 /* UserFollowTableViewCell.swift */; };
+		E4B7A0BA28D17E1300B3F488 /* NoNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0B928D17E1300B3F488 /* NoNotificationsView.swift */; };
+		E4B7A0BD28D1861B00B3F488 /* NotificationsFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0BC28D1861B00B3F488 /* NotificationsFollowEventTableViewCell.swift */; };
+		E4B7A0BF28D1865000B3F488 /* NotificationsLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7A0BE28D1865000B3F488 /* NotificationsLikeEventTableViewCell.swift */; };
 		E4F6739F28CC1A2B005650F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */; };
 		E4F673A128CC1A2B005650F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */; };
 		E4F673A328CC1A2B005650F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673A228CC1A2B005650F9 /* HomeViewController.swift */; };
@@ -21,15 +36,36 @@
 		E4F673C628CC1C4C005650F9 /* RegistrastionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C528CC1C4C005650F9 /* RegistrastionViewController.swift */; };
 		E4F673C828CC1CA7005650F9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C728CC1CA7005650F9 /* PostViewController.swift */; };
 		E4F673CA28CC1CD2005650F9 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */; };
-		E4F673CC28CC1CFA005650F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */; };
 		E4F673CE28CC1D0F005650F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CD28CC1D0F005650F9 /* ListViewController.swift */; };
 		E4F673D028CC1D27005650F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673CF28CC1D27005650F9 /* SearchViewController.swift */; };
 		E4F673D228CC1D3C005650F9 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */; };
 		E4F673D428CC1D74005650F9 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */; };
 		E4F673D628CC1D93005650F9 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */; };
+		E4F673DA28CC7507005650F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4F673D928CC7507005650F9 /* GoogleService-Info.plist */; };
+		E4F673DD28CC7ABB005650F9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673DC28CC7ABB005650F9 /* DatabaseManager.swift */; };
+		E4F673DF28CC7C93005650F9 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673DE28CC7C93005650F9 /* AuthManager.swift */; };
+		E4F673E128CC7D19005650F9 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673E028CC7D19005650F9 /* StorageManager.swift */; };
+		E4F673E328CC99FE005650F9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F673E228CC99FE005650F9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144AB757F571D37F06D7EB93 /* Pods_InstaVietNam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaVietNam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A20C08F9A597BC3079C9FD0 /* Pods-InstaVietNam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaVietNam.debug.xcconfig"; path = "Target Support Files/Pods-InstaVietNam/Pods-InstaVietNam.debug.xcconfig"; sourceTree = "<group>"; };
+		D29AEA85D6C37CEDFAE8793F /* Pods-InstaVietNam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaVietNam.release.xcconfig"; path = "Target Support Files/Pods-InstaVietNam/Pods-InstaVietNam.release.xcconfig"; sourceTree = "<group>"; };
+		E4B7A0A128CED90700B3F488 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0A428CEDC0800B3F488 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0A628CEDC4000B3F488 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0A828CEDC7900B3F488 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0AA28CF0E0E00B3F488 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E4B7A0AC28CF273A00B3F488 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0AF28CF6D7100B3F488 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0B128CF6DFC00B3F488 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		E4B7A0B328CF6E8500B3F488 /* ProfileTableCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableCollectionReusableView.swift; sourceTree = "<group>"; };
+		E4B7A0B528D0731300B3F488 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E4B7A0B728D13E5300B3F488 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0B928D17E1300B3F488 /* NoNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationsView.swift; sourceTree = "<group>"; };
+		E4B7A0BC28D1861B00B3F488 /* NotificationsFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsFollowEventTableViewCell.swift; sourceTree = "<group>"; };
+		E4B7A0BE28D1865000B3F488 /* NotificationsLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsLikeEventTableViewCell.swift; sourceTree = "<group>"; };
 		E4F6739B28CC1A2B005650F9 /* InstaVietNam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaVietNam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +82,16 @@
 		E4F673C528CC1C4C005650F9 /* RegistrastionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrastionViewController.swift; sourceTree = "<group>"; };
 		E4F673C728CC1CA7005650F9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
-		E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E4F673CD28CC1D0F005650F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		E4F673CF28CC1D27005650F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		E4F673D928CC7507005650F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4F673DC28CC7ABB005650F9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		E4F673DE28CC7C93005650F9 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E4F673E028CC7D19005650F9 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		E4F673E228CC99FE005650F9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +99,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1030380EC78382BFFF80F80 /* Pods_InstaVietNam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35C028172E693915ABBE8ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144AB757F571D37F06D7EB93 /* Pods_InstaVietNam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E74865FE79A64949651B6A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A20C08F9A597BC3079C9FD0 /* Pods-InstaVietNam.debug.xcconfig */,
+				D29AEA85D6C37CEDFAE8793F /* Pods-InstaVietNam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4B7A0A028CED8AF00B3F488 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A0BB28D1859E00B3F488 /* Notifications */,
+				E4B7A0A328CEDBB300B3F488 /* Home Feed & Post */,
+				E4B7A0AC28CF273A00B3F488 /* FormTableViewCell.swift */,
+				E4B7A0AF28CF6D7100B3F488 /* PhotoCollectionViewCell.swift */,
+				E4B7A0B728D13E5300B3F488 /* UserFollowTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E4B7A0A328CEDBB300B3F488 /* Home Feed & Post */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A0A128CED90700B3F488 /* IGFeedPostTableViewCell.swift */,
+				E4B7A0A428CEDC0800B3F488 /* IGFeedPostHeaderTableViewCell.swift */,
+				E4B7A0A628CEDC4000B3F488 /* IGFeedPostActionsTableViewCell.swift */,
+				E4B7A0A828CEDC7900B3F488 /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = "Home Feed & Post";
+			sourceTree = "<group>";
+		};
+		E4B7A0AE28CF6D0900B3F488 /* CollectionView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A0B128CF6DFC00B3F488 /* ProfileInfoHeaderCollectionReusableView.swift */,
+				E4B7A0B328CF6E8500B3F488 /* ProfileTableCollectionReusableView.swift */,
+			);
+			path = "CollectionView Headers";
+			sourceTree = "<group>";
+		};
+		E4B7A0BB28D1859E00B3F488 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A0BC28D1861B00B3F488 /* NotificationsFollowEventTableViewCell.swift */,
+				E4B7A0BE28D1865000B3F488 /* NotificationsLikeEventTableViewCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		E4F6739228CC1A2B005650F9 = {
 			isa = PBXGroup;
 			children = (
 				E4F6739D28CC1A2B005650F9 /* InstaVietNam */,
 				E4F6739C28CC1A2B005650F9 /* Products */,
+				8E74865FE79A64949651B6A0 /* Pods */,
+				35C028172E693915ABBE8ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +206,11 @@
 		E4F673B328CC1A5D005650F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E4B7A0AE28CF6D0900B3F488 /* CollectionView Headers */,
+				E4B7A0A028CED8AF00B3F488 /* Cells */,
 				E4F673B628CC1AAA005650F9 /* Storyboards */,
 				E4F673A728CC1A2D005650F9 /* Assets.xcassets */,
+				E4B7A0B928D17E1300B3F488 /* NoNotificationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +218,7 @@
 		E4F673B428CC1A65005650F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4B7A0B528D0731300B3F488 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,8 +226,13 @@
 		E4F673B528CC1A71005650F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E4F673D928CC7507005650F9 /* GoogleService-Info.plist */,
 				E4F6739E28CC1A2B005650F9 /* AppDelegate.swift */,
 				E4F673A028CC1A2B005650F9 /* SceneDelegate.swift */,
+				E4F673DC28CC7ABB005650F9 /* DatabaseManager.swift */,
+				E4F673DE28CC7C93005650F9 /* AuthManager.swift */,
+				E4F673E028CC7D19005650F9 /* StorageManager.swift */,
+				E4F673E228CC99FE005650F9 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,14 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				E4F673C128CC1BFF005650F9 /* Onboarding */,
-				E4F673C728CC1CA7005650F9 /* PostViewController.swift */,
-				E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */,
-				E4F673CB28CC1CFA005650F9 /* SettingsViewController.swift */,
-				E4F673CD28CC1D0F005650F9 /* ListViewController.swift */,
-				E4F673CF28CC1D27005650F9 /* SearchViewController.swift */,
-				E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */,
-				E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */,
-				E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */,
+				E4F673DB28CC79DE005650F9 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -173,6 +276,21 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		E4F673DB28CC79DE005650F9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A0AA28CF0E0E00B3F488 /* SettingsViewController.swift */,
+				E4F673C728CC1CA7005650F9 /* PostViewController.swift */,
+				E4F673C928CC1CD2005650F9 /* EditProfileViewController.swift */,
+				E4F673CD28CC1D0F005650F9 /* ListViewController.swift */,
+				E4F673CF28CC1D27005650F9 /* SearchViewController.swift */,
+				E4F673D128CC1D3C005650F9 /* SearchResultViewController.swift */,
+				E4F673D328CC1D74005650F9 /* PostEditorViewController.swift */,
+				E4F673D528CC1D93005650F9 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F673AF28CC1A2D005650F9 /* Build configuration list for PBXNativeTarget "InstaVietNam" */;
 			buildPhases = (
+				287745C986192B99DCF4FD7D /* [CP] Check Pods Manifest.lock */,
 				E4F6739728CC1A2B005650F9 /* Sources */,
 				E4F6739828CC1A2B005650F9 /* Frameworks */,
 				E4F6739928CC1A2B005650F9 /* Resources */,
+				9C58E70974397937F16BBC70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F673AB28CC1A2D005650F9 /* LaunchScreen.storyboard in Resources */,
+				E4F673DA28CC7507005650F9 /* GoogleService-Info.plist in Resources */,
 				E4F673A828CC1A2D005650F9 /* Assets.xcassets in Resources */,
 				E4F673A628CC1A2B005650F9 /* Main.storyboard in Resources */,
 			);
@@ -239,28 +360,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		287745C986192B99DCF4FD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaVietNam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C58E70974397937F16BBC70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaVietNam/Pods-InstaVietNam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaVietNam/Pods-InstaVietNam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaVietNam/Pods-InstaVietNam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4F6739728CC1A2B005650F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B7A0BD28D1861B00B3F488 /* NotificationsFollowEventTableViewCell.swift in Sources */,
 				E4F673CA28CC1CD2005650F9 /* EditProfileViewController.swift in Sources */,
+				E4B7A0BF28D1865000B3F488 /* NotificationsLikeEventTableViewCell.swift in Sources */,
 				E4F673C628CC1C4C005650F9 /* RegistrastionViewController.swift in Sources */,
 				E4F673D628CC1D93005650F9 /* PublishPostViewController.swift in Sources */,
 				E4F673A328CC1A2B005650F9 /* HomeViewController.swift in Sources */,
 				E4F673BA28CC1B3B005650F9 /* CameraViewController.swift in Sources */,
 				E4F6739F28CC1A2B005650F9 /* AppDelegate.swift in Sources */,
+				E4B7A0BA28D17E1300B3F488 /* NoNotificationsView.swift in Sources */,
+				E4B7A0A528CEDC0800B3F488 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				E4F673D428CC1D74005650F9 /* PostEditorViewController.swift in Sources */,
+				E4F673E128CC7D19005650F9 /* StorageManager.swift in Sources */,
+				E4B7A0B828D13E5300B3F488 /* UserFollowTableViewCell.swift in Sources */,
+				E4B7A0B628D0731300B3F488 /* Models.swift in Sources */,
+				E4B7A0AD28CF273A00B3F488 /* FormTableViewCell.swift in Sources */,
 				E4F673C828CC1CA7005650F9 /* PostViewController.swift in Sources */,
+				E4F673DD28CC7ABB005650F9 /* DatabaseManager.swift in Sources */,
 				E4F673BC28CC1B61005650F9 /* NotificationsViewController.swift in Sources */,
+				E4B7A0A228CED90700B3F488 /* IGFeedPostTableViewCell.swift in Sources */,
+				E4B7A0B028CF6D7100B3F488 /* PhotoCollectionViewCell.swift in Sources */,
 				E4F673D228CC1D3C005650F9 /* SearchResultViewController.swift in Sources */,
 				E4F673C328CC1C2D005650F9 /* LoginViewController.swift in Sources */,
+				E4B7A0B428CF6E8500B3F488 /* ProfileTableCollectionReusableView.swift in Sources */,
+				E4F673E328CC99FE005650F9 /* Extensions.swift in Sources */,
+				E4B7A0A928CEDC7900B3F488 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				E4F673D028CC1D27005650F9 /* SearchViewController.swift in Sources */,
+				E4B7A0B228CF6DFC00B3F488 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,
 				E4F673BE28CC1B77005650F9 /* ProfileViewController.swift in Sources */,
+				E4F673DF28CC7C93005650F9 /* AuthManager.swift in Sources */,
 				E4F673A128CC1A2B005650F9 /* SceneDelegate.swift in Sources */,
 				E4F673B828CC1B1F005650F9 /* ExplorerViewController.swift in Sources */,
+				E4B7A0A728CEDC4000B3F488 /* IGFeedPostActionsTableViewCell.swift in Sources */,
+				E4B7A0AB28CF0E0E00B3F488 /* SettingsViewController.swift in Sources */,
 				E4F673CE28CC1D0F005650F9 /* ListViewController.swift in Sources */,
-				E4F673CC28CC1CFA005650F9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +582,7 @@
 		};
 		E4F673B028CC1A2D005650F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A20C08F9A597BC3079C9FD0 /* Pods-InstaVietNam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -413,8 +594,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,6 +613,7 @@
 		};
 		E4F673B128CC1A2D005650F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29AEA85D6C37CEDFAE8793F /* Pods-InstaVietNam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,8 +625,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

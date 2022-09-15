@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="OZY-qY-BgX" kind="relationship" relationship="viewControllers" id="BAi-rV-WGl"/>
@@ -144,11 +144,11 @@
             </objects>
             <point key="canvasLocation" x="1558" y="673"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="5fI-if-mU3">
             <objects>
                 <navigationController id="BRo-cq-kcs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="bell" catalog="system" id="vYY-ww-SgB"/>
+                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="vYY-ww-SgB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ss6-pp-bpH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -161,11 +161,11 @@
             </objects>
             <point key="canvasLocation" x="764" y="673"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="gJA-qS-JeW">
             <objects>
                 <navigationController id="ZGY-gv-uj7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="plus" catalog="system" id="Yiy-qg-GyR"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="Yiy-qg-GyR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="din-Mt-QOI">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -178,11 +178,11 @@
             </objects>
             <point key="canvasLocation" x="6" y="673"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="44Q-us-eY8">
             <objects>
                 <navigationController id="wde-B0-iVX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="globe.asia.australia.fill" catalog="system" id="REc-lC-EIE"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="REc-lC-EIE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LXf-l0-fo7">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -198,10 +198,13 @@
     </scenes>
     <resources>
         <image name="bell" catalog="system" width="128" height="124"/>
-        <image name="globe.asia.australia.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

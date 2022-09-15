@@ -1,0 +1,6 @@
+framework module Pods_InstaVietNam {
+  umbrella header "Pods-InstaVietNam-umbrella.h"
+
+  export *
+  module * { export * }
+}
